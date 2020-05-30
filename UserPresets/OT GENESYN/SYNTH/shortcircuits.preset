@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.1">
+  <Content Processor="Interface">
+    <Control type="ScriptSlider" id="UNISONO" value="5"/>
+    <Control type="ScriptSlider" id="DETUNE" value="0.15"/>
+    <Control type="ScriptSlider" id="SPREAD" value="0.17"/>
+    <Control type="ScriptSlider" id="TRANSPOSE" value="0"/>
+    <Control type="ScriptButton" id="PWHEEL ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="PITCHWHEELrange" value="2"/>
+    <Control type="ScriptSlider" id="PANORAMA" value="0"/>
+    <Control type="ScriptButton" id="LFO1toPAN ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="LFO1toPAN INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="LFO2toPAN ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="LFO2toPAN INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="LFO3toPAN ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="LFO3toPAN INTENSITY" value="0"/>
+    <Control type="ScriptSlider" id="WG1 VOLUME" value="0.49"/>
+    <Control type="ScriptButton" id="WG1A ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="WG1A WAVETYPE" value="4"/>
+    <Control type="ScriptSlider" id="WG1A OCTAVE" value="-1"/>
+    <Control type="ScriptSlider" id="WG1A DETUNE" value="0"/>
+    <Control type="ScriptSlider" id="WG1A PAN" value="0"/>
+    <Control type="ScriptSlider" id="WG1A PULSEWIDTH" value="0.81"/>
+    <Control type="ScriptSlider" id="WG1 MIX" value="0.78"/>
+    <Control type="ScriptSlider" id="WG1B PULSEWIDTH" value="0.51"/>
+    <Control type="ScriptSlider" id="WG1B PAN" value="0"/>
+    <Control type="ScriptSlider" id="WG1B DETUNE" value="0"/>
+    <Control type="ScriptSlider" id="WG1B OCTAVE" value="-1"/>
+    <Control type="ScriptSlider" id="WG1B WAVETYPE" value="7"/>
+    <Control type="ScriptButton" id="WG1B ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="WG2 VOLUME" value="0.57"/>
+    <Control type="ScriptButton" id="WG2 LFO3toPAN ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="WG2 LFO3toPAN INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="WG2A ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="WG2A WAVETYPE" value="4"/>
+    <Control type="ScriptSlider" id="WG2A OCTAVE" value="0"/>
+    <Control type="ScriptSlider" id="WG2A DETUNE" value="0"/>
+    <Control type="ScriptSlider" id="WG2A PULSEWIDTH" value="0.13"/>
+    <Control type="ScriptSlider" id="WG2A PAN" value="0"/>
+    <Control type="ScriptSlider" id="WG2 MIX" value="0.34"/>
+    <Control type="ScriptSlider" id="WG2B PULSEWIDTH" value="0.71"/>
+    <Control type="ScriptSlider" id="WG2B PAN" value="0"/>
+    <Control type="ScriptSlider" id="WG2B DETUNE" value="0"/>
+    <Control type="ScriptSlider" id="WG2B OCTAVE" value="-1"/>
+    <Control type="ScriptSlider" id="WG2B WAVETYPE" value="6"/>
+    <Control type="ScriptButton" id="WG2B ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="WG1 ATTACK" value="32"/>
+    <Control type="ScriptSlider" id="WG1 DECAY" value="4416"/>
+    <Control type="ScriptSlider" id="WG1 SUSTAIN" value="0"/>
+    <Control type="ScriptSlider" id="WG1 RELEASE" value="4547"/>
+    <Control type="ScriptSlider" id="WG2 ATTACK" value="5"/>
+    <Control type="ScriptSlider" id="WG2 DECAY" value="11169"/>
+    <Control type="ScriptSlider" id="WG2 SUSTAIN" value="-1"/>
+    <Control type="ScriptSlider" id="WG2 RELEASE" value="609"/>
+    <Control type="ScriptButton" id="WG1 LFO1toWG1 ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="WG1 LFO1toWG1 INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="WG1 LFO2toWG1 ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="WG1 LFO2toWG1 INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="WG1 LFO3toWG1 ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="WG1 LFO3toWG1 INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="WG2 LFO3toWG2 ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="WG2 LFO3toWG2 INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="WG2 LFO1toWG2 ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="WG2 LFO1toWG2 INTENSITY" value="0.35"/>
+    <Control type="ScriptButton" id="WG1 LFO1toMIX ENABLE" value="0"/>
+    <Control type="ScriptButton" id="WG1 LFO2toMIX ENABLE" value="0"/>
+    <Control type="ScriptButton" id="WG1 LFO3toMIX ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="WG1 LFO1toMIX INTENSITY" value="1"/>
+    <Control type="ScriptSlider" id="WG1 LFO2toMIX INTENSITY" value="0"/>
+    <Control type="ScriptSlider" id="WG1 LFO3toMIX INTENSITY" value="1"/>
+    <Control type="ScriptSlider" id="WG2 LFO1toMIX INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="WG2 LFO1toMIX ENABLE" value="0"/>
+    <Control type="ScriptButton" id="WG2 LFO2toMIX ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="WG2 LFO2toMIX INTENSITY" value="0.22"/>
+    <Control type="ScriptButton" id="WG2 LFO3toMIX ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="WG2 LFO3toMIX INTENSITY" value="0.46"/>
+    <Control type="ScriptButton" id="LFO1toWG1PITCH ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="LFO1toWG1PITCH INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="LFO2toWG1PITCH ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="LFO2toWG1PITCH INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="LFO3toWG1PITCH ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="LFO3toWG1PITCH INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="LFO1toWG2PITCH ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="LFO1toWG2PITCH INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="LFO2toWG2PITCH ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="LFO2toWG2PITCH INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="LFO3toWG2PITCH ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="LFO3toWG2PITCH INTENSITY" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 Intensity" value="1"/>
+    <Control type="ScriptSlider" id="LFO1 WaveType" value="2"/>
+    <Control type="ScriptSlider" id="LFO1 Frequency" value="8"/>
+    <Control type="ScriptSlider" id="LFO1 FadeIn" value="3000"/>
+    <Control type="ScriptSlider" id="LFO1 Smoothing" value="0"/>
+    <Control type="ScriptButton" id="LFO1 Sync" value="1"/>
+    <Control type="ScriptButton" id="LFO1 Legato" value="1"/>
+    <Control type="ScriptButton" id="LFO1 LoopEnabled" value="1"/>
+    <Control type="ScriptButton" id="LFO2 Sync" value="0"/>
+    <Control type="ScriptButton" id="LFO2 Legato" value="0"/>
+    <Control type="ScriptButton" id="LFO2 LoopEnabled" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 Intensity" value="0.84"/>
+    <Control type="ScriptSlider" id="LFO2 Waveform Type" value="1"/>
+    <Control type="ScriptSlider" id="LFO2 Frequency" value="1.5"/>
+    <Control type="ScriptSlider" id="LFO2 FadeIn" value="2555"/>
+    <Control type="ScriptSlider" id="LFO2 Smoothing" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 Intensity" value="1"/>
+    <Control type="ScriptSlider" id="LFO3 Frequency" value="6.5"/>
+    <Control type="ScriptSlider" id="LFO3 FadeIn" value="13"/>
+    <Control type="ScriptSlider" id="LFO3 Smoothing" value="344"/>
+    <Control type="ScriptSliderPack" id="LFO3 Custom" value="12" data="64.Etdz9v0iB7i8nvwOOJbM+....8CEtdzOT35Q+v0iB8Cov0yOCWOJ+35Qg7S35QwOMyLC+fqGE7y0iBuOb8nv9."/>
+    <Control type="ScriptButton" id="LFO3 Sync" value="0"/>
+    <Control type="ScriptButton" id="LFO3 Legato" value="1"/>
+    <Control type="ScriptButton" id="LFO3 LoopEnabled" value="1"/>
+    <Control type="ScriptButton" id="VELOCITY INVERT" value="0"/>
+    <Control type="ScriptButton" id="VELOCITY ATTACK INVERT " value="0"/>
+    <Control type="ScriptSlider" id="VELOCITY AMOUNT" value="1"/>
+    <Control type="ScriptButton" id="VELOCITY ATTACK ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="VELOCITY ATTACK INTENSITY" value="0.71"/>
+    <Control type="ScriptSlider" id="ATTACK CURVE" value="0.31"/>
+    <Control type="ScriptSlider" id="ENVELOPEAttack" value="19"/>
+    <Control type="ScriptSlider" id="ENVELOPEHold" value="11.57"/>
+    <Control type="ScriptSlider" id="ENVELOPEDecay" value="1087"/>
+    <Control type="ScriptSlider" id="ENVELOPESustain" value="-100"/>
+    <Control type="ScriptSlider" id="ENVELOPERelease" value="444"/>
+    <Control type="ScriptButton" id="LFO1 to GAIN ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="LFO1 to GAIN INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="LFO2 to GAIN ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="LFO2 to GAIN INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="LFO3 to GAIN ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="LFO3 to GAIN INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="FILTER ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="FILTER TYPE" value="13"/>
+    <Control type="ScriptSlider" id="FILTERFrequency" value="3041.14"/>
+    <Control type="ScriptSlider" id="FILTERResonance" value="5.16"/>
+    <Control type="ScriptSlider" id="FILTERBipolar" value="-0.3"/>
+    <Control type="ScriptSlider" id="FILTERGain" value="-11.21"/>
+    <Control type="ScriptButton" id="FILTERENVELOPE ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="FILTERENVELOPE AMOUNT" value="1"/>
+    <Control type="ScriptButton" id="FILTER VELOCITY ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="FILTER VELOCITY INTENSITY" value="0.98"/>
+    <Control type="ScriptButton" id="FILTER VELOCITY INVERT" value="0"/>
+    <Control type="ScriptSlider" id="FILTER ATTACK CURVE" value="0.29"/>
+    <Control type="ScriptButton" id="FILTER VELOCITYATTACK ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="FILTER VELOCITYATTACK INTENSITY" value="0.16"/>
+    <Control type="ScriptButton" id="FILTER VELOCITYATTACK INVERT" value="1"/>
+    <Control type="ScriptSlider" id="FILTERENVELOPEAttack" value="5"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPEHold" value="1648.36"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPEDecay" value="11573"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPESustain" value="0"/>
+    <Control type="ScriptSlider" id="FILTER ENVELOPERelease" value="2500"/>
+    <Control type="ScriptButton" id="FILTER LFO1toFREQ ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO1toFREQ INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="FILTER LFO2toFREQ ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO2toFREQ INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="FILTER LFO3toFREQ ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO3toFREQ INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="FILTER LFO2toQ ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO2toQ INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="FILTER LFO3toQ ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO3toQ INTENSITY" value="0"/>
+    <Control type="ScriptButton" id="FILTER LFO3toGAIN ENABLE" value="0"/>
+    <Control type="ScriptSlider" id="FILTER LFO3toGAIN INTENSITY" value="0"/>
+    <Control type="ScriptSlider" id="MIDIchnl" value="1"/>
+    <Control type="ScriptButton" id="LibButton" value="1"/>
+    <Control type="ScriptButton" id="MIDIButton" value="0"/>
+    <Control type="ScriptButton" id="SettButton" value="0"/>
+    <Control type="ScriptButton" id="SHAPER ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="SHAPER MIX INTENSITY" value="0.05"/>
+    <Control type="ScriptButton" id="SHAPER AUTOGAIN" value="1"/>
+    <Control type="ScriptButton" id="SHAPER LIMIT INPUT" value="0"/>
+    <Control type="ScriptSlider" id="SHAPER GAIN INTENSITY" value="41.2"/>
+    <Control type="ScriptSlider" id="SHAPER REDUCE INTENSITY" value="0"/>
+    <Control type="ScriptSlider" id="SHAPER LEFT BIAS" value="0"/>
+    <Control type="ScriptSlider" id="SHAPER RIGHT BIAS" value="0"/>
+    <Control type="ScriptSlider" id="SHAPER HIPASS" value="1606.73"/>
+    <Control type="ScriptSlider" id="SHAPER LOWPASS INTENSITY" value="8297.67"/>
+    <Control type="ScriptSlider" id="SHAPER MODE" value="3"/>
+    <Control type="ScriptButton" id="COMPRESION ENABLE" value="1"/>
+    <Control type="ScriptButton" id="COMPRESSION MAKEUP" value="1"/>
+    <Control type="ScriptSlider" id="COMPRESSION THRESHOLD" value="-17.9"/>
+    <Control type="ScriptSlider" id="COMPRESSION RATIO" value="5"/>
+    <Control type="ScriptSlider" id="COMPRESSION ATTACK" value="12.3"/>
+    <Control type="ScriptSlider" id="COMPRESSION RELEASE" value="89.1"/>
+    <Control type="ScriptButton" id="LIMITER ENABLE" value="0"/>
+    <Control type="ScriptButton" id="LIMITER MAKEUP" value="0"/>
+    <Control type="ScriptSlider" id="LIMITER THRESH" value="-100"/>
+    <Control type="ScriptSlider" id="LIMITER ATTACK" value="0"/>
+    <Control type="ScriptSlider" id="LIMITER REL" value="0"/>
+    <Control type="ScriptButton" id="SATURATION ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="SATURATION MIX" value="0.51"/>
+    <Control type="ScriptSlider" id="SATURATION SAT" value="0.17"/>
+    <Control type="ScriptButton" id="REVERB ENABLE" value="1"/>
+    <Control type="ScriptSlider" id="REVERB MIX" value="0.06"/>
+    <Control type="ScriptSlider" id="REVERB SIZE" value="0.32"/>
+    <Control type="ScriptSlider" id="DELAY MIX" value="0.02"/>
+    <Control type="ScriptButton" id="DELAY ON" value="1"/>
+    <Control type="ScriptSlider" id="DELAY R TIME" value="7"/>
+    <Control type="ScriptSlider" id="DELAY R FB" value="0.4"/>
+    <Control type="ScriptSlider" id="DELAY L TIME" value="5"/>
+    <Control type="ScriptSlider" id="DELAY L FB" value="0.41"/>
+    <Control type="ScriptButton" id="DELAY SYNC" value="1"/>
+    <Control type="ScriptSlider" id="MASTER IMAGE" value="122.71"/>
+    <Control type="ScriptSlider" id="MASTER VOLUME" value="0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>
