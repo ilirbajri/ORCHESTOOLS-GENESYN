@@ -16,3 +16,4 @@ _________________________________________________
 
 Hise is released under GPLv3 open source license.
 ORCHESTOOLS | GENESYN  is a free/GPLv3 open source licensed public domain instrument.
+.
